@@ -6,7 +6,6 @@ class Mycog:
 
     def __init__(self, bot):
         self.bot = bot
-        await self.bot.say('Mycog: rev 1')
 
 
     @commands.group()
