@@ -8,7 +8,7 @@ class Mycog:
         self.bot = bot
 
 
-    @commands.group()
+    @commands.command(pass_context=True)
     async def playnow(self, ctx):
         """Stops playback then starts new local playlist!"""
 
@@ -19,7 +19,7 @@ class Mycog:
             await self.bot.say('The Audio cog is not loaded')
 
         #stop current music and clear queue
-
+        await.self.bot.say('Attempting to run...')
         audio.stop()
         await self.bot.say('Stopping now and...')
 
