@@ -18,7 +18,7 @@ import math
 import time
 import inspect
 import subprocess
-from .Audio import *
+from .audio import *
 
 class Mycog:
     """My custom cog that does stuff!"""
