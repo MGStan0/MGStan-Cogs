@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class playnow:
+class Mycog:
     """My custom cog that does stuff!"""
 
     def __init__(self, bot):
@@ -9,7 +9,7 @@ class playnow:
 
     @commands.group()
     async def playnow(self, ctx):
-        """Stops playback then starts new track!"""
+        """Stops playback then starts new local playlist!"""
         audio = self.bot.get_cog(Audio)
 
         #Your code will go here
