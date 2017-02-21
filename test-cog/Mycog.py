@@ -20,10 +20,10 @@ class Mycog:
 
         #stop current music and clear queue
 
-        audio.Audio.stop()
+        audio.stop()
         await self.bot.say('Stopping now and...')
 
-        audio.Audio.local(ctx)
+        audio.local(ctx)
         await self.bot.say('playing local playlist!')
 
 def setup(bot):
