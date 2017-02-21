@@ -19,7 +19,7 @@ class Mycog:
             await self.bot.say('The Audio cog is not loaded')
 
         #stop current music and clear queue
-        await.self.bot.say('Attempting to run...')
+        await self.bot.say('Attempting to run...')
         audio.stop()
         await self.bot.say('Stopping now and...')
 
