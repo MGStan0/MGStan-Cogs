@@ -8,11 +8,11 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def playnow(self, user : discord.Member):
+    async def mycom(self):
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("ONE PUNCH! And " + user.mention + " is out!")
+        await self.bot.say("I can do stuff!")
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
